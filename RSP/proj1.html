@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>가위바위보 게임</title>
+    <link rel="stylesheet" href="./proj1.css">
+</head>
+<body>
+    <h1>가위바위보 게임</h1>
+
+    <label for="username">사용자 이름:</label>
+    <input type="text" id="username">
+    <button onclick="registerUser()">등록</button>
+
+    <br>
+    <br>
+
+    <label for="searchName">유저 이름 검색:</label>
+    <input type="text" id="searchName">
+    <button onclick="searchUser()">검색</button>
+
+    <br>
+    <br>
+
+    <label for="updateName">기존 유저 이름 수정:</label>
+    <input type="text" id="updateName">
+    <button onclick="updateUser()">수정</button>
+
+    <br>
+    <br>
+
+    <label for="deleteName">등록된 유저 기록 삭제:</label>
+    <input type="text" id="deleteName">
+    <button onclick="deleteUser()">삭제</button>
+
+    <br>
+    <br>
+
+    <button onclick="playGame()">시작</button>
+
+    <div id="result"></div>
+    <div id="score"></div>
+
+    <script src="./proj1.js"></script>
+</body>
+</html>
